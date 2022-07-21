@@ -502,6 +502,13 @@ time
   min-height:200px
 }
 
+.project-rectangle
+{
+    background-color: #f9f9f9;
+    box-shadow:1px 1px 0 1px #e8e8e8;
+    min-width:400px
+}
+
 .project-box:hover
 {
   background-color:#fff;

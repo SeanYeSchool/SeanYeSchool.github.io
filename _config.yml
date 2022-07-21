@@ -1,11 +1,15 @@
-name: Herring Cove
-author: Herring Cove
+name: Sean Ye
+author: Sean Ye
 baseurl: https://seanyeschool.github.io/
-description: theme for jekyll
+description: 
 github: https://github.com/SeanYeSchool
 twitter: http://www.twitter.com/
-facebook: http://www.facebook.com
+itch: https://coolguyplayers.itch.io/
+itchtwo: https://seen103.itch.io/
 linkedin: http://www.linkedin.com
+coding: https://seanyeschool.github.io//projects//coding_projects.html
+renders: https://seanyeschool.github.io//projects//rendering_projects.html
+
 email: rnpatel[at]me.com
 location: 42°2'16"N   70°12'47"W
 disqus: diqus-username
