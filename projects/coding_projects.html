@@ -121,16 +121,16 @@ title: Projects
             Everything that could go wrong, went wrong, including wireing issues, memory exhaustion and more!
             In the end, we learned a lot about hardware and created a physical and digital prototype. <!--70 characters preline fix this-->
             
-            <video id="myVideo" style="width:100%;height:100%;">
+            <video id="playingUno" style="width:100%;height:100%;" controls>
                 <script>
-                    var v = document.getElementById("myVideo2");
+                    var v = document.getElementById("playingUno");
 	                function foo() { 
   	                v.autoplay = true;
   	                v.muted = true;
   	                v.loop = true;
   	                v.load();
 	                }
-	                enableAutoplay()
+	                foo()
                 </script>
 
                 <source src="{{ site.baseurl }}/videos/Playing Uno.mp4" type="video/mp4">
