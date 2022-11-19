@@ -109,7 +109,18 @@ title: Projects
         <div class="row">
         
         <div class="col-md-12 project-image">
-            <img class="projectimage" src="{{ site.baseurl }}/images/TileWars thumbnail.png" style="width:100%;height:100%;">
+            <video id="UnoCollage" style="width:100%;height:100%;">
+                <script>
+                    var v = document.getElementById("UnoCollage");
+	                function foo() { 
+  	                v.autoplay = true;
+  	                v.muted = true;
+  	                v.loop = true;
+  	                v.load();
+	                }
+	                foo()
+                </script>
+                <source src="{{ site.baseurl }}/videos/UnoCollage.mp4" type="video/mp4">
         </div>
 
         <div class="col-md-9 project-post">
