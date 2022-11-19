@@ -76,7 +76,24 @@ title: Projects
             Download: <a href = "https://seen103.itch.io/plants-vs-zombies">itch.io</a>.<!--70 characters preline fix this-->
             <br>
             GitHub: <a href = "https://github.com/Sean-Ye-Student/github-342165131-33467638/tree/main/Games/PVZ">repository</a>.
-          </div>
+            
+            
+            <video id="pvzGameplay" style="width:100%;height:100%;">
+                <script>
+                    var v = document.getElementById("pvzGameplay");
+	                function foo() { 
+  	                v.autoplay = true;
+  	                v.muted = true;
+  	                v.loop = true;
+  	                v.load();
+	                }
+	                foo()
+                </script>
+                <source src="{{ site.baseurl }}/videos/PVZGameplay.mp4" type="video/mp4">
+            </video>
+
+            
+            </div>
         </div>
       </div>
     </div>
@@ -107,47 +124,46 @@ title: Projects
   <div class="container">
     <div class="project-box">
         <div class="row">
-        
-        <div class="col-md-12 project-image">
-            <video id="UnoCollage" style="width:100%;height:100%;">
-                <script>
-                    var v = document.getElementById("UnoCollage");
-	                function foo() { 
-  	                v.autoplay = true;
-  	                v.muted = true;
-  	                v.loop = true;
-  	                v.load();
-	                }
-	                foo()
-                </script>
-                <source src="{{ site.baseurl }}/videos/UnoCollage.mp4" type="video/mp4">
-        </div>
-
-        <div class="col-md-9 project-post">
-            <h1>Uno Project</h1><h4>Fun for the whole family</h4>
-            <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 26/1/2022 </small></p><hr/>
-            <div class="post"> 
-            My first large scale arduino project had myself and my partner from my class, recreate the game Uno.
-            The project required extensive electrical work, trouble shooting, and research. 
-            Everything that could go wrong, went wrong, including wireing issues, memory exhaustion and more!
-            In the end, we learned a lot about hardware and created a physical and digital prototype. <!--70 characters preline fix this-->
-            
-            <video id="playingUno" style="width:100%;height:100%;" controls>
-                <script>
-                    var v = document.getElementById("playingUno");
-	                function foo() { 
-  	                v.autoplay = true;
-  	                v.muted = true;
-  	                v.loop = true;
-  	                v.load();
-	                }
-	                foo()
-                </script>
-
-                <source src="{{ site.baseurl }}/videos/Playing Uno.mp4" type="video/mp4">
-            </video>
+            <div class="col-md-12 project-image">
+                <video id="UnoCollage" style="width:100%;height:100%;">
+                    <script>
+                        var v = document.getElementById("UnoCollage");
+	                    function foo() { 
+  	                    v.autoplay = true;
+  	                    v.muted = true;
+  	                    v.loop = true;
+  	                    v.load();
+	                    }
+	                    foo()
+                    </script>
+                    <source src="{{ site.baseurl }}/videos/UnoCollage.mp4" type="video/mp4">
+                </video>
             </div>
-        </div>
+
+            <div class="col-md-9 project-post">
+                <h1>Uno Project</h1><h4>Fun for the whole family</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 26/1/2022 </small></p><hr/>
+                <div class="post"> 
+                My first large scale arduino project had myself and my partner from my class, recreate the game Uno.
+                The project required extensive electrical work, trouble shooting, and research. 
+                Everything that could go wrong, went wrong, including wireing issues, memory exhaustion and more!
+                In the end, we learned a lot about hardware and created a physical and digital prototype. <!--70 characters preline fix this-->
+            
+                <video id="playingUno" style="width:100%;height:100%;" controls>
+                    <script>
+                        var v = document.getElementById("playingUno");
+	                    function foo() { 
+  	                    v.autoplay = true;
+  	                    v.muted = true;
+  	                    v.loop = true;
+  	                    v.load();
+	                    }
+	                    foo()
+                    </script>
+
+                    <source src="{{ site.baseurl }}/videos/Playing Uno.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </div>
   </div>
