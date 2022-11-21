@@ -9,15 +9,13 @@ itchtwo: https://seen103.itch.io/
 linkedin: http://www.linkedin.com
 coding: https://seanyeschool.github.io//projects//coding_projects.html
 renders: https://seanyeschool.github.io//projects//rendering_projects.html
-projects: https://seanyeschool.github.io/projects/coding_projects.html
-
-<!--https://seanyeschool.github.io/projects.html-->
+projects: https://seanyeschool.github.io/projects/coding_projects.html ##<!--https://seanyeschool.github.io/projects.html-->
 
 email: rnpatel[at]me.com
 location: 
 disqus: diqus-username
 
-##Make sure to edit the above fields, especially for disqus.
+##Make sure to edit the above fields, especially for disqus. 
 
 
 highlighter: pygments
