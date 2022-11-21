@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\images",
-    "\\js",
     "\\projects",
-    "\\_includes"
+    "\\videos",
+    "\\_includes",
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\projects.html",
+  "SelectedNode": "\\videos\\UnoCollage.mp4",
   "PreviewInSolutionExplorer": false
 }
