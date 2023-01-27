@@ -62,9 +62,21 @@ title: Projects
       <div class="row">
         
         <div class="col-md-12 project-image">
-            <img class="projectimage" src="{{ site.baseurl }}/images/PVZ.png" style="width:100%;height:100%;">
+            <video id="UnoCollage" style="width:100%;height:100%;">
+                    <script>
+                        var v = document.getElementById("UnoCollage");
+	                    function foo() { 
+  	                    v.autoplay = true;
+  	                    v.muted = true;
+  	                    v.loop = true;
+  	                    v.load();
+	                    }
+	                    foo()
+                    </script>
+                    <source src="{{ site.baseurl }}/videos/TestingPlayerController.MOV" type="video/mp4">
+            </video>
         </div>
-
+        
         <div class="col-md-9 project-post">
           <h1>Custom Minecraft Player Controller</h1><h4>New way to play</h4>
           <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 24/1/2023 </small></p><hr/>
@@ -89,7 +101,9 @@ title: Projects
 
             <br><br>
             GitHub: <a href = "https://github.com/Sean-Ye-Student/Custom-Minecraft-Controller">repository</a>.
-           
+            
+            <iframe src="https://drive.google.com/file/d/1dIH7-uhEVmpK-i_5Z2i6Pd8Ab4Klxhf-/preview" style="width:120%;height:600px" allow="autoplay"></iframe>
+
           </div>
         </div>
       </div>
