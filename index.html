@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +21,7 @@
    <script src="js/modernizr-2.6.2.min.js"></script>
    <script type="module" src="index.js"></script>
    <script src="js/profile-card.js"></script>
+   <script src="https://kit.fontawesome.com/c66784357d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -30,24 +32,34 @@
          <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
             <div class="text-center">
                <div class="author-img">
-                  <img alt="profile-img" src="images/logo.png">
+                  <img alt="profile-img" style="border-radius: 50%" src="images/profile.jpeg">
                </div>
-               <h1 id="colorlib-logo"><a href="./index.html">Vinay
-                     Somawat</a>
-               </h1>
+               <h1 id="colorlib-logo"><a href="./index.html">Sean Ye</a></h1>
+              
+            </div>
+            
+            <div id="accounts" class="accounts">
+               <a alt="linkedin" href="https://google.com"><i class="fa-brands fa-linkedin"></i></a>
+               <a alt="github" href="https://google.com"><i class="fa-brands fa-github"></i></a>
+               <a alt="devpost" href="https://google.com"><img style="-webkit-filter: invert(1); filter: invert(1); margin-bottom: 10px" src="https://d2dmyh35ffsxbl.cloudfront.net/assets/reimagine2/dft-logo-mobile-ab66dd5a4f4b2f045ad86d0e5f432dc85974c3d778b353d32213c24ca176484b.svg"></img></a>
+               
+            </div>
+            
+            <div style="width: 80%; margin-left: 10%" id="accounts2" class="accounts">
+            <a alt="github-highschool" href="https://google.com"><i class="fa-brands fa-github-alt"></i></a>
+               <a alt="resume" href="https://google.com"><i class="fa-solid fa-book-bookmark"></i></a>
             </div>
             <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
                <div id="navbar" class="collapse">
                   <ul>
                      <li><a href="#" data-nav-section="about">About</a></li>
-                     <li><a href="#" data-nav-section="skills">Skills</a>
-                     </li>
+                     <!--li><a href="#" data-nav-section="skills">Skills</a>
+                     </li-->
                      <li><a href="#" data-nav-section="projects">Projects</a>
                      </li>
-                     <li><a href="#" data-nav-section="blogs">Blogs</a>
-                     </li>
-                     <li><a href="#" data-nav-section="experience">Work
-                           Experience</a></li>
+                     <!--li><a href="#" data-nav-section="blogs">Blogs</a>
+                     </li-->
+                     <li><a href="#" data-nav-section="experience">Experience</a></li>
                      <li><a href="#" data-nav-section="education">Education</a></li>
                      <li><a href="#" data-nav-section="contact">Contact</a>
                      </li>
@@ -62,13 +74,22 @@
                      <div class="about-desc">
                         <h1>About</h1>
                         <div id="bio">
+                           <p>Hello World!<br><br> I'm an Industrial Engineering student at the University of Toronto. 
+                              During my time in university I strive to gain technical knowledge in my discipline, 
+                              collaborate with others on unique projects, become more independent, and engage with 
+                              opportunities on campus. When outside of school, I work on building my professional 
+                              experience and real world problem solving skills by pursuing new opportunities in the 
+                              ever growing technology industry.
+                           </p>
                         </div>
                      </div>
                   </div>
                </div>
             </section>
             <!--------------------[END] About me---------------------------->
-            <!--------------------[START] Skills---------------------------->
+
+            <!--------------------[START] Skills--------------------------
+            
             <section class="colorlib-skills" data-section="skills">
                <div class="colorlib-narrow-content">
                   <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
@@ -80,7 +101,8 @@
                   </div>
                </div>
             </section>
-            <!--------------------[END] Skills------------------------------>
+            -->
+            <!--------------------[END] Skills----------------------------
             <section class="colorlib-profile" data-section="profile-card">
                <div class="colorlib-narrow-content">
                   <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
@@ -95,6 +117,7 @@
                   </div>
                </div>
             </section>
+            -->
             <!--------------------[START] Projects-------------------------->
             <section class="colorlib-projects no-print" data-section="projects">
                <div class="colorlib-narrow-content">
@@ -106,10 +129,11 @@
                   <ul id="accordion" class="accordion animate-box" data-animate-effect="fadeInLeft">
                      <li>
                         <div class="link">
+                           <img style="border-radius: 20px; margin-right: 25px" src="https://media.licdn.com/dms/image/v2/D560BAQFsQv-oVXdnNA/company-logo_100_100/company-logo_100_100/0/1691430079546/utmist_logo?e=1742428800&amp;v=beta&amp;t=CdjppyBXYTeTyo1JUcX0WwNbxnVriFlvBzlx3wI_ceI">
                            <p style="margin-bottom: 0px">Web Projects</p>
-                           <i class="fa fa-chevron-down"></i>
                         </div>
                         <ul id="web-projects" class="submenu">
+                           <li><div class="project-card"><a target="_blank" href="https://programmingdiaries.herokuapp.com/"><div class="resume-item"><img id="left-div" src="https://seanyeschool.github.io//images/PVZ.png" style="width: 100%"><img id="left-div" src="https://seanyeschool.github.io//images/PVZ.png" style="width: 100%"><div class="resume-content" id="left-div"><img class="img-fluid" src="images/programmingdiaries.png"></div><div class="resume-content" id="right-div"><div class="sub-heading"><p class="project-description">Developed a full stack blog application to provide content on techical topics across the internet with admin interface.</p><p class="project-description">Developed a full stack blog application to provide content on techical topics across the internet with admin interface.</p><div><span class="badge badge-secondary">Django</span><span class="badge badge-secondary">SQLite</span><span class="badge badge-secondary">Bootstrap</span><span class="badge badge-secondary">JavaScript</span><span class="badge badge-secondary">Heroku</span></div></div></div></div></a></div></li>
                         </ul>
                      </li>
                      <li>
@@ -143,7 +167,7 @@
                </div>
             </section>
             <!--------------------[END] Projects---------------------------->
-            <!--------------------[START] Blogs----------------------------->
+            <!--------------------[START] Blogs---------------------------
             <section class="colorlib-blogs no-print" data-section="blogs">
                <div class="colorlib-narrow-content">
                   <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
@@ -163,6 +187,7 @@
                   </ul>
                </div>
             </section>
+            -->
             <!--------------------[END] Blogs------------------------------->
             <!--------------------[START] Work Experience------------------->
             <section class="colorlib-experience" data-section="experience">
@@ -170,11 +195,225 @@
                   <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
                      data-animate-effect="fadeInLeft">
                      <div class="about-desc">
-                        <h1>Work <span style="color: #f9bf3f">Experience</span>
+                        <h1>Work <span style="color: #457b9d">Experience</span>
                         </h1>
                      </div>
                   </div>
+
                   <div class="timeline-centered" id="experience">
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa-brands fa-github"></i></div>
+                           <div class="timeline-label">
+                              <h2>Shiprocket (Bigfoot Solution Private Limited)<span>September 2022 - Present</span>
+                              </h2><span class="timeline-sublabel">Software Engineer</span>
+                              <div class="timeline-image-label">
+                                 <img class="bevel-image" src="https://media.licdn.com/dms/image/v2/D560BAQFsQv-oVXdnNA/company-logo_100_100/company-logo_100_100/0/1691430079546/utmist_logo?e=1742428800&v=beta&t=CdjppyBXYTeTyo1JUcX0WwNbxnVriFlvBzlx3wI_ceI"></img>
+                                 <p class="timeline-text">
+                                    ▪ Working in support and escalation team. <br>
+                                    ▪ Working in support and escalation team. <br>
+                                    ▪ Working in support and escalation team. <br>
+                                 </p>
+                                 
+                              </div>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">Bootstrap</span><span
+                                    class="badge badge-secondary">Nodejs</span><span
+                                    class="badge badge-secondary">Jenkins</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-heartbeat"></i></div>
+                           <div class="timeline-label">
+                              <h2>Biofourmis India Private Limited<span>April 2022 - Jul 2023</span></h2><span
+                                 class="timeline-sublabel">Software Engineer</span>
+                              <p class="timeline-text">▪ Implemented microfrontends using the Module Federation Plugin
+                                 in Angular.
+                                 Rendered components from remote modules/repositories, enabling a modular and scalable
+                                 architecture</p>
+                              <p class="timeline-text">▪ Upgraded application with a dynamic base URL for flexible
+                                 operation across multiple regions and verticals, leading to
+                                 recognition with the Biofourmis Bravo award in Q1, 2023.</p>
+                              <p class="timeline-text">▪ Implemented RxState for managing local state in components,
+                                 resulting in elegant and reactive facades.</p>
+                              <p class="timeline-text">▪ Utilized Twilio-Video for group video call rooms and Countly
+                                 for Web Analytics.</p>
+                              <p class="timeline-text">▪ Integrated NGXS WebSocket, enhancing state management and
+                                 replacing legacy service injections.</p>
+                              <p class="timeline-text">▪ Implemented extensive RxJS usage for reactive programming,
+                                 resulting in efficient data handling, improved state
+                                 management, and enhanced application performance.</p>
+                              <p class="timeline-text">▪ Dramatically optimized load time and performance through code
+                                 splitting, lazy loading, caching, and preload</p>
+                              <p class="timeline-text">▪ Enhanced video call experience by implementing real-time
+                                 switching of I/O devices and audio level indicators,
+                                 resulting in reduced audio issues and increased user satisfaction.</p>
+                              <p class="timeline-text">▪ Owned and led successful Angular application upgrades from
+                                 version 12 to 13 and 14, improving performance
+                                 and enhancing features.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">RxJS</span><span
+                                    class="badge badge-secondary">NGXS</span><span
+                                    class="badge badge-secondary">TypeScript</span><span
+                                    class="badge badge-secondary">RxState</span><span
+                                    class="badge badge-secondary">Webpack</span><span
+                                    class="badge badge-secondary">Optimization</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-qrcode"></i></div>
+                           <div class="timeline-label">
+                              <h2>Novopay Solutions Private Limited<span>June 2020 - April 2022</span></h2><span
+                                 class="timeline-sublabel">Software Engineer</span>
+                              <p class="timeline-text">▪ Implemented AePS Services, including Bio-metric eKYC, Cash
+                                 Withdrawal, Balance Enquiry, Mini-Statements,
+                                 and Money transfer.</p>
+                              <p class="timeline-text">▪ Implemented QR Code integration for retailer wallet money
+                                 loading, Clevertap events for user action tracking,
+                                 Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.</p>
+                              <p class="timeline-text">▪ Developed retailer QR code system for seamless money loading
+                                 into wallets, resulting in improved user transactions.</p>
+                              <p class="timeline-text">▪ Achieved 70 percent code coverage of the entire application by
+                                 writing unit tests for legacy code.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">Bootstrap</span><span
+                                    class="badge badge-secondary">Nodejs</span><span
+                                    class="badge badge-secondary">Jenkins</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-group"></i></div>
+                           <div class="timeline-label">
+                              <h2>ThinkPedia LLP<span>May 2019 - June 2019</span></h2><span
+                                 class="timeline-sublabel">SDE Intern</span>
+                              <p class="timeline-text">▪ Developed a customer web application for social media
+                                 management, supporting the advertisement domain.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">Bootstrap</span><span
+                                    class="badge badge-secondary">Java</span><span class="badge badge-secondary">Spring
+                                    Boot</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry begin animate-box fadeInUp animated">
+                        <!--div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"></div>
+                        </div-->
+                     </article>
+                  </div>
+
+                  <div class="timeline-centered" id="experience2">
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-truck "></i></div>
+                           <div class="timeline-label">
+                              <h2>Shiprocket (Bigfoot Solution Private Limited)<span>September 2022 - Present</span>
+                              </h2><span class="timeline-sublabel">Software Engineer</span>
+                              <p class="timeline-text">▪ Working in support and escalation team.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">Bootstrap</span><span
+                                    class="badge badge-secondary">Nodejs</span><span
+                                    class="badge badge-secondary">Jenkins</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-heartbeat"></i></div>
+                           <div class="timeline-label">
+                              <h2>Biofourmis India Private Limited<span>April 2022 - Jul 2023</span></h2><span
+                                 class="timeline-sublabel">Software Engineer</span>
+                              <p class="timeline-text">▪ Implemented microfrontends using the Module Federation Plugin
+                                 in Angular.
+                                 Rendered components from remote modules/repositories, enabling a modular and scalable
+                                 architecture</p>
+                              <p class="timeline-text">▪ Upgraded application with a dynamic base URL for flexible
+                                 operation across multiple regions and verticals, leading to
+                                 recognition with the Biofourmis Bravo award in Q1, 2023.</p>
+                              <p class="timeline-text">▪ Implemented RxState for managing local state in components,
+                                 resulting in elegant and reactive facades.</p>
+                              <p class="timeline-text">▪ Utilized Twilio-Video for group video call rooms and Countly
+                                 for Web Analytics.</p>
+                              <p class="timeline-text">▪ Integrated NGXS WebSocket, enhancing state management and
+                                 replacing legacy service injections.</p>
+                              <p class="timeline-text">▪ Implemented extensive RxJS usage for reactive programming,
+                                 resulting in efficient data handling, improved state
+                                 management, and enhanced application performance.</p>
+                              <p class="timeline-text">▪ Dramatically optimized load time and performance through code
+                                 splitting, lazy loading, caching, and preload</p>
+                              <p class="timeline-text">▪ Enhanced video call experience by implementing real-time
+                                 switching of I/O devices and audio level indicators,
+                                 resulting in reduced audio issues and increased user satisfaction.</p>
+                              <p class="timeline-text">▪ Owned and led successful Angular application upgrades from
+                                 version 12 to 13 and 14, improving performance
+                                 and enhancing features.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">RxJS</span><span
+                                    class="badge badge-secondary">NGXS</span><span
+                                    class="badge badge-secondary">TypeScript</span><span
+                                    class="badge badge-secondary">RxState</span><span
+                                    class="badge badge-secondary">Webpack</span><span
+                                    class="badge badge-secondary">Optimization</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-qrcode"></i></div>
+                           <div class="timeline-label">
+                              <h2>Novopay Solutions Private Limited<span>June 2020 - April 2022</span></h2><span
+                                 class="timeline-sublabel">Software Engineer</span>
+                              <p class="timeline-text">▪ Implemented AePS Services, including Bio-metric eKYC, Cash
+                                 Withdrawal, Balance Enquiry, Mini-Statements,
+                                 and Money transfer.</p>
+                              <p class="timeline-text">▪ Implemented QR Code integration for retailer wallet money
+                                 loading, Clevertap events for user action tracking,
+                                 Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.</p>
+                              <p class="timeline-text">▪ Developed retailer QR code system for seamless money loading
+                                 into wallets, resulting in improved user transactions.</p>
+                              <p class="timeline-text">▪ Achieved 70 percent code coverage of the entire application by
+                                 writing unit tests for legacy code.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">Bootstrap</span><span
+                                    class="badge badge-secondary">Nodejs</span><span
+                                    class="badge badge-secondary">Jenkins</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"><i class="fa fa-group"></i></div>
+                           <div class="timeline-label">
+                              <h2>ThinkPedia LLP<span>May 2019 - June 2019</span></h2><span
+                                 class="timeline-sublabel">SDE Intern</span>
+                              <p class="timeline-text">▪ Developed a customer web application for social media
+                                 management, supporting the advertisement domain.</p>
+                              <div><span class="badge badge-secondary">JavaScript</span><span
+                                    class="badge badge-secondary">Angular</span><span
+                                    class="badge badge-secondary">Bootstrap</span><span
+                                    class="badge badge-secondary">Java</span><span class="badge badge-secondary">Spring
+                                    Boot</span></div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry begin animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"></div>
+                        </div>
+                     </article>
                   </div>
                </div>
             </section>
@@ -189,6 +428,52 @@
                      </div>
                   </div>
                   <div class="timeline-centered" id="education">
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2">
+                              <i class="fa fa-graduation-cap"></i>
+                           </div>
+                           <div class="timeline-label">
+                              <h2>BASc, Industrial Engineering + PEY Co-op
+                                 <span>2023 - Present</span>
+                              </h2>
+                              <span class="timeline-sublabel">University of Toronto</span>
+                              <div>
+                                 <span class="badge badge-secondary">AI &amp; Machine Learning</span>
+                                 <span class="badge badge-secondary">Data Structures &amp; Algorithms</span>
+                                 <span class="badge badge-secondary">Data Science</span>
+                                 <span class="badge badge-secondary">Design Projects</span>
+                                 <span class="badge badge-secondary">Operations Research</span>
+                                 <span class="badge badge-secondary">Human Factors</span>
+                                 
+                                 <span class="badge badge-secondary">Engineering Strategies &amp; Practice</span>
+                              </div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry animate-box fadeInUp animated">
+                        <div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2">
+                              <i class="fa fa-book"></i>
+                           </div>
+                           <div class="timeline-label">
+                              <h2>York Mills Collegiate Institute<span></span></h2><span
+                                 class="timeline-sublabel">Highschool</span>
+                              <div><span class="badge badge-secondary">Programming</span>
+                                    <span class="badge badge-secondary">Game Design</span>
+                                    <span class="badge badge-secondary">Mathematics</span>
+                                    <span class="badge badge-secondary">Sciences</span>
+                                    <span class="badge badge-secondary">English</span>
+                                    <span class="badge badge-secondary">Fashion</span>
+                                 </div>
+                           </div>
+                        </div>
+                     </article>
+                     <article class="timeline-entry begin animate-box fadeInUp animated">
+                        <!--div class="timeline-entry-inner">
+                           <div class="timeline-icon color-2"></div>
+                        </div-->
+                     </article>
                   </div>
                </div>
             </section>
@@ -200,7 +485,8 @@
                      <div class="about-desc">
                         <h1>Contact</h1>
                      </div>
-                     <p>Feel free to email me at vinaysomawat40@gmail.com for tech discussions, business opportunities, or just to say hello—I’d love to hear from you!
+                     <p>Feel free to email me at sean.ye@mail.utoronto.ca<br>
+                        I can't wait to hear from you! 👋
                      </p>
                   </div>
                </div>
