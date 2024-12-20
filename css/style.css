@@ -1013,6 +1013,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-label .timeline-image-label .bevel-image {
 	border-radius: 20px;
+	width: 100px;
+	height: auto;
 }
 
 .timeline-text {
@@ -2112,6 +2114,10 @@ ul {
 	font-weight: 100;
 }
 
+.accordion .link img {
+	width: 100px;
+	height: auto;
+}
 
 .accordion li:last-child .link {
 	border-bottom: 0;
