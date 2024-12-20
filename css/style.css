@@ -188,6 +188,7 @@ figure figcaption {
 	font-family: "Raleway", sans-serif;
 }
 
+/*
 #colorlib-aside .accounts {
 	display: flex;
 	justify-content: space-evenly;
@@ -199,6 +200,7 @@ figure figcaption {
 #colorlib-aside .accounts a{
 	color: var(--navigation-selector-bg);
 }
+*/
 
 #colorlib-aside .accounts img {
 	width: 32px; 
@@ -211,13 +213,13 @@ figure figcaption {
 	color: var(--navigation-selector-bg);
 }
 
-/*
+
 #colorlib-aside hr {
 	margin-top: 10px; 
 	border-color: var(--navigation-name-bg);
 	width: 80%;
 }
-*/
+
 
 #colorlib-aside .position {
 	display: block;
@@ -593,7 +595,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-footer,
 .colorlib-contact {
 	padding-top: 3em;
-	padding-bottom: 0em;
+	padding-bottom: 2em;
 	clear: both;
 	width: 100%;
 	display: block;
@@ -615,7 +617,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.colorlib-services,
 	.colorlib-contact {
 		padding-top: 2em;
-		padding-bottom: 0em;
+		padding-bottom: 2em;
 	}
 	
 	.colorlib-blogs {
@@ -695,6 +697,30 @@ body.offcanvas .colorlib-nav-toggle {
 	font-weight: 600;
 	font-family: "Montserrat", Georgia, serif;
 }
+
+.about-desc .accounts {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.about-desc .accounts a{
+	color: var(--accounts-bg);
+}
+
+.about-desc .accounts img {
+	width: 32px; 
+	color: var(--accounts-bg);
+}
+
+
+.about-desc .accounts i{
+	font-size: xx-large;
+	color: var(--accounts-bg);
+}
+
 
 .hire {
 	padding: 2em;
@@ -2065,7 +2091,7 @@ ul {
 
 .accordion .link {
 	cursor: pointer;
-	display: block;
+	/*display: block;*/
 	padding: 15px 15px 15px 15px;
 	font-weight: 700;
 	border-bottom: 1px solid #000;
@@ -2093,7 +2119,7 @@ ul {
 
 .accordion li i {
 	position: absolute;
-	top: 16px;
+	top: 45%;
 	left: 12px;
 	font-size: 18px;
 	color: #595959;
@@ -2239,6 +2265,7 @@ span {
 	--navigation-bg: #457B9D;
 	--navigation-selector-bg: white;
 	--navigation-name-bg: white;
+	--accounts-bg: #1D3557;
 	--project-bg: #A8DADC;
 	--experience-bg: #A8DADC;
 	--education-bg: var(--experience-bg);

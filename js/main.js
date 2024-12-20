@@ -290,6 +290,7 @@ Accordion.prototype.dropdown = function (e) {
 };
 
 var accordion = new Accordion($("#accordion"), false);
+var accordion2 = new Accordion($("#accordion2"), false);
 
 function enableDarkMode() {
   document.body.classList.toggle("dark-mode");
@@ -301,6 +302,6 @@ function detectDayNightMode() {
   if (isDayTime === true) {
     // do nothing
   } else {
-    enableDarkMode();
+    // enableDarkMode();
   }
 }
