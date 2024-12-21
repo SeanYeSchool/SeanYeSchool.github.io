@@ -6014,6 +6014,7 @@ button.list-group-item-danger.active:focus {
 	border-bottom-color: #ebccd1;
 }
 
+/*
 .embed-responsive {
 	position: relative;
 	display: block;
@@ -6034,6 +6035,7 @@ button.list-group-item-danger.active:focus {
 	width: 100%;
 	border: 0;
 }
+*/
 
 .embed-responsive-16by9 {
 	padding-bottom: 56.25%;
